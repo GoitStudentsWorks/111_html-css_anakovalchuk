@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/111_html-css_anakovalchuk/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WatchCharm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
+      integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/111_html-css_anakovalchuk/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/111_html-css_anakovalchuk/assets/index-CWoy0sv3.css">
+  </head>
+  <body>
+    <header class="page-header">
+  <div class="container header-container">
+    <div>
+      <a class="header-logo" href="../index.html">watchcharm</a>
+    </div>
+
+    <nav class="header-nav">
+      <ul class="header-menu">
+        <li><a class="header-link current" href="../index.html">Home</a></li>
+        <li><a class="header-link" href="#about-us">About Us</a></li>
+        <li><a class="header-link" href="#catalog">Catalog</a></li>
+        <li><a class="header-link" href="#sale">Sale</a></li>
+        <li><a class="header-link" href="#reviews">Reviews</a></li>
+        <li><a class="header-link" href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <ul class="header-sosials">
+        <li class="header-icons">
+          <a
+            class="header-icons-link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+          >
+            <svg class="header-svg" width="20" height="20">
+              <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="header-icons">
+          <a
+            class="header-icons-link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+          >
+            <svg class="header-svg" width="20" height="20">
+              <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="header-icons">
+          <a
+            class="header-icons-link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+          >
+            <svg class="header-svg" width="20" height="20">
+              <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <button class="burger-button is-open" type="button" data-modal-open>
+      <svg class="burger-icon" width="34" height="34">
+        <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-menu"></use>
+      </svg>
+    </button>
+
+    <div class="mob-menu" data-modal>
+      <div class="container mob-menu-container">
+        <button class="menu-button" type="button " data-modal-close>
+          <svg class="menu-icon" width="20" height="20">
+            <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <div>
+          <nav class="menu-nav">
+            <ul class="header-menu menu">
+              <li>
+                <a class="header-link menu-link current" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li><a class="header-link menu-link" href="#sale">Sale</a></li>
+              <li>
+                <a class="header-link menu-link" href="#reviews">Reviews</a>
+              </li>
+              <li>
+                <a class="header-link menu-link" href="#contact-us"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <ul class="header-sosials menu-sosials">
+            <li class="header-icons menu-icons">
+              <a
+                class="header-icons-link"
+                href="https://www.facebook.com/goITclub/"
+                target="_blank"
+              >
+                <svg class="header-svg menu-svg" width="18" height="18">
+                  <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="header-icons menu-icons">
+              <a
+                class="header-icons-link"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+              >
+                <svg class="header-svg menu-svg" width="18" height="18">
+                  <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="header-icons menu-icons">
+              <a
+                class="header-icons-link"
+                href="https://www.youtube.com/c/GoIT"
+                target="_blank"
+              >
+                <svg class="header-svg menu-svg" width="18" height="18">
+                  <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero">
+        <div class="hero-info">
+            <div class="text-container">
+                <h1 class="hero-title">Welcome to our 
+                    <span class="text-color">collection</span> of premium watches</h1>
+                <p class="hero-text">Our watches are not just timepieces, but also an expression 
+                    of your personality and lifestyle. From classic designs to modern 
+                    ones, we have a watch to suit every taste and occasion.
+                </p>
+            </div>
+            <div class="team-container">
+                <div class="team">
+                    <picture>
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-1-B_xxNOEX.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-1@2x-CjflNu6Z.png 2x"
+                            media="(min-width: 1280px)"
+                            width="60"
+                        />
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-1-B_xxNOEX.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-1@2x-CjflNu6Z.png 2x"
+                            media="(min-width: 768px)"
+                            width="56"
+                        />
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-1-B_xxNOEX.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-1@2x-CjflNu6Z.png 2x"
+                            media="(max-width: 767px)"
+                            width="44"
+                        />
+                        <img 
+                            class="team-photo-victoria"
+                            src="/111_html-css_anakovalchuk/assets/hero-ellipse-1-B_xxNOEX.png" 
+                            alt="victoria-romashenko"
+                            width="60">
+                    </picture>
+                    <picture>
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-2-5nOwDK6e.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-2@2x-BAicl61v.png 2x"
+                            media="(min-width: 1280px)"
+                            width="60"
+                        />
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-2-5nOwDK6e.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-2@2x-BAicl61v.png 2x"
+                            media="(min-width: 768px)"
+                            width="56"
+                        />
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-2-5nOwDK6e.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-2@2x-BAicl61v.png 2x"
+                            media="(max-width: 767px)"
+                            width="44"
+                        />
+                        <img 
+                            class="team-photo-john"
+                            src="/111_html-css_anakovalchuk/assets/hero-ellipse-2-5nOwDK6e.png" 
+                            alt="john-wax"
+                            width="60">
+                    </picture>
+                    <picture>
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-3-drwVPGe8.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-3@2x-BNa-FapF.png 2x"
+                            media="(min-width: 1280px)"
+                            width="60"
+                        />
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-3-drwVPGe8.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-3@2x-BNa-FapF.png 2x"
+                            media="(min-width: 768px)"
+                            width="56"
+                        />
+                        <source
+                            srcset="/111_html-css_anakovalchuk/assets/hero-ellipse-3-drwVPGe8.png 1x, /111_html-css_anakovalchuk/assets/hero-ellipse-3@2x-BNa-FapF.png 2x"
+                            media="(max-width: 767px)"
+                            width="44"
+                        />
+                        <img 
+                            class="team-photo-anastasia"
+                            src="/111_html-css_anakovalchuk/assets/hero-ellipse-3-drwVPGe8.png" 
+                            alt="anastasia-trachuk"
+                            width="60">
+                    </picture>
+                </div>
+                <a href="#footer" class="button-link">
+                    Scroll down
+                </a>
+            </div>
+        </div>
+        <div class="background-image"></div>
+</section>
+      <section class="about-us container" id="about-us">
+  <div class="about-us-descrip">
+    <h2 class="about-us-title">About Us</h2>
+    <div class="about-us-text-cont">
+      <p class="about-us-text">
+        Welcome to our premium watch collection, where luxury and style meet
+        functionality and precision. Our selection of timepieces embodies the
+        very best in Swiss craftsmanship and engineering, ensuring that you'll
+        always have a reliable and stylish accessory on your wrist.
+      </p>
+      <p class="about-us-text">
+        At our premium watch collection, we believe that a watch is more than
+        just a timekeeping device – it's a statement piece that reflects your
+        personality and style. So why settle for anything less than the best?
+      </p>
+    </div>
+    <a href="#catalog" class="about-us-btn">View catalog</a>
+  </div>
+  <picture>
+    <source
+      srcset="/111_html-css_anakovalchuk/assets/about-us-desk-BnlrWX4w.png 1x, /111_html-css_anakovalchuk/assets/about-us-desk@2x-Dj7QlDR_.png 2x"
+      width="530"
+      height="532"
+      media="(min-width: 1280px)"
+    />
+    <source
+      srcset="/111_html-css_anakovalchuk/assets/about-us-tab-DxszjkQM.png 1x, /111_html-css_anakovalchuk/assets/about-us-tab@2x-S2SiiRK3.png 2x"
+      width="704"
+      height="512"
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="/111_html-css_anakovalchuk/assets/about-us-mob-Cu9jvE0M.png 1x, /111_html-css_anakovalchuk/assets/about-us-mob@2x-E4IKwMvf.png 2x"
+      width="335"
+      height="446"
+      media="(max-width: 767px)"
+    />
+    <img src="/111_html-css_anakovalchuk/assets/about-us-desk-BnlrWX4w.png" alt="clock" width="530" />
+  </picture>
+</section>
+
+      <section class="catalog" id="catalog">
+  <div class="container">
+    <h2 class="catalog-header">Catalog</h2>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <div class="watch-card">
+          <img
+            class="catalog-img"
+            srcset="/111_html-css_anakovalchuk/assets/catalog-1-Cby-bDRX.png 1x, /111_html-css_anakovalchuk/assets/catalog-1@2x-CzeWmhVH.png 2x"
+            src="../img/catalog/catalog-1.png"
+            alt="Garmin Fenix 7X Pro Sapphire Solar Watch picture"
+          />
+
+          <div class="watch-details">
+            <h3 class="watch-name">Garmin Fenix 7X Pro Sapphire Solar</h3>
+            <p class="watch-price">€500</p>
+          </div>
+        </div>
+      </li>
+      <li class="catalog-item">
+        <div class="watch-card">
+          <img
+            class="catalog-img"
+            srcset="/111_html-css_anakovalchuk/assets/catalog-2-CbEtW6sP.png 1x, /111_html-css_anakovalchuk/assets/catalog-2@2x-BoYUNl-l.png 2x"
+            src="../img/catalog/catalog-2.png"
+            alt="Garmin Marq Athlete Watch picture"
+          />
+          <div class="watch-details">
+            <h3 class="watch-name">Garmin Marq Athlete</h3>
+            <p class="watch-price">€450</p>
+          </div>
+        </div>
+      </li>
+      <li class="catalog-item">
+        <div class="watch-card">
+          <img
+            class="catalog-img"
+            srcset="/111_html-css_anakovalchuk/assets/catalog-3-DTIFrzIG.png 1x, /111_html-css_anakovalchuk/assets/catalog-3@2x-CscQRlPr.png 2x"
+            src="../img/catalog/catalog-3.png"
+            alt="Garmin Descent MK1 Watch picture"
+          />
+          <div class="watch-details">
+            <h3 class="watch-name">Garmin Descent MK1</h3>
+            <p class="watch-price">€680</p>
+          </div>
+        </div>
+      </li>
+      <li class="catalog-item">
+        <div class="watch-card">
+          <img
+            class="catalog-img"
+            srcset="/111_html-css_anakovalchuk/assets/catalog-4-DYgvdOCi.png 1x, /111_html-css_anakovalchuk/assets/catalog-4@2x-BcrladFX.png 2x"
+            src="../img/catalog/catalog-4.png"
+            alt="Garmin D2 Delta PX Watch picture"
+          />
+          <div class="watch-details">
+            <h3 class="watch-name">Garmin D2 Delta PX</h3>
+            <p class="watch-price">€380</p>
+          </div>
+        </div>
+      </li>
+      <li class="catalog-item mob">
+        <div class="watch-card">
+          <img
+            class="catalog-img"
+            srcset="/111_html-css_anakovalchuk/assets/catalog-5-BYO-PTCL.png 1x, /111_html-css_anakovalchuk/assets/catalog-5@2x-D0-CXjnM.png 2x"
+            src="../img/catalog/catalog-5.png"
+            alt="Garmin Fenix 6 Pro Solar Watch picture"
+          />
+          <div class="watch-details">
+            <h3 class="watch-name">Garmin Fenix 6 Pro Solar</h3>
+            <p class="watch-price">€400</p>
+          </div>
+        </div>
+      </li>
+      <li class="catalog-item mob">
+        <div class="watch-card">
+          <img
+            class="catalog-img"
+            srcset="/111_html-css_anakovalchuk/assets/catalog-6-BSgI3KJB.png 1x, /111_html-css_anakovalchuk/assets/catalog-6@2x-DTxfSPX9.png 2x"
+            src="../img/catalog/catalog-6.png"
+            alt="Tube Watch S42 Date Steel With Black Case Watch picture"
+          />
+          <div class="watch-details">
+            <h3 class="watch-name">
+              Tube Watch S42 Date Steel With Black Case
+            </h3>
+            <p class="watch-price">€395</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button type="button" class="btn-show-more">Sow more</button>
+  </div>
+</section>
+
+      <section class="advertisement">
+  <div class="container">
+  <h2 class="title visually-hidden">Advertisement</h2>
+  <p class="advertisement-text">
+    Choose <span class="advertisement-span">your story</span>, making every
+    moment unique. Time is your style, and we reveal it.
+  </p>
+  <a href="#contact-us" class="advert-link">Contact Us</a>
+</div>
+</section>
+
+      <section class="sale-section" id="sale">
+  <div class="container">
+    <h2 class="section-header">Sale</h2>
+    <div class="sale-content">
+      <div class="image-cards-container">
+        <ul class="list">
+          <li class="element">
+            <div class="thumb">
+              <img
+                class="pic"
+                srcset="/111_html-css_anakovalchuk/assets/sale-2-4oEA2dcM.png 1x, /111_html-css_anakovalchuk/assets/sale-2@2x-Dd2ZmlSK.png 2x"
+                src="/111_html-css_anakovalchuk/assets/sale-2-4oEA2dcM.png"
+                alt="front watch 1"
+                width="96"
+                height="100"
+              />
+            </div>
+          </li>
+          <li class="element">
+            <div class="thumb">
+              <img
+                class="pic"
+                srcset="/111_html-css_anakovalchuk/assets/sale-3-Bdn4zmWT.png 1x, /111_html-css_anakovalchuk/assets/sale-3@2x-BTHiehjy.png 2x"
+                src="/111_html-css_anakovalchuk/assets/sale-3-Bdn4zmWT.png"
+                alt="front watch 2"
+                width="96"
+                height="100"
+              />
+            </div>
+          </li>
+          <li class="element">
+            <div class="thumb">
+              <img
+                class="pic"
+                srcset="/111_html-css_anakovalchuk/assets/sale-4-CXWHLGYD.png 1x, /111_html-css_anakovalchuk/assets/sale-4@2x-zJYwL84o.png 2x"
+                src="/111_html-css_anakovalchuk/assets/sale-4-CXWHLGYD.png"
+                alt="side watch"
+                width="96"
+                height="100"
+              />
+            </div>
+          </li>
+          <li class="element">
+            <div class="thumb">
+              <img
+                class="pic"
+                srcset="/111_html-css_anakovalchuk/assets/sale-5-CAQUdBxm.png 1x, /111_html-css_anakovalchuk/assets/sale-5@2x-CivIUZgQ.png 2x"
+                src="/111_html-css_anakovalchuk/assets/sale-5-CAQUdBxm.png"
+                alt="back watch"
+                width="96"
+                height="100"
+              />
+            </div>
+          </li>
+        </ul>
+        <div class="thumb">
+          <img
+            class="pic"
+            srcset="/111_html-css_anakovalchuk/assets/sale-1-guBd0SGy.png 1x, /111_html-css_anakovalchuk/assets/sale-1@2x-DVLJ-ROV.png 2x"
+            src="/111_html-css_anakovalchuk/assets/sale-1-guBd0SGy.png"
+            alt="front watch 3"
+            width="328"
+            height="398"
+          />
+        </div>
+      </div>
+      <div class="description-block">
+        <h3 class="description-header">
+          MARQ&#174; Commander (Gen 2) - Carbon Edition
+        </h3>
+        <p class="product-tag">Product tag: 706587</p>
+        <div class="price-block">
+          <p class="new-price">&#8364;1500</p>
+          <p class="old-price">&#8364;3000</p>
+        </div>
+        <p class="description-text">
+          The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch
+          for adventurers that takes materials and features to the next level.
+          The body of the watch is made of very durable Fused Carbon Fiber
+          material and has a precise AMOLED touch screen. The sensitive touch
+          screen is complemented by buttons that can be used in any conditions.
+        </p>
+        <ul class="tag-list">
+          <li class="element">
+            <p class="tag">Fused carbon fiber</p>
+          </li>
+          <li class="element">
+            <p class="tag">Grade-5 Titanuim</p>
+          </li>
+          <li class="element">
+            <p class="tag">Athlete</p>
+          </li>
+          <li class="element">
+            <p class="tag">Golfer</p>
+          </li>
+          <li class="element">
+            <p class="tag">Commander</p>
+          </li>
+          <li class="element">
+            <p class="tag">Adventurer</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews" id="reviews">
+    <div class="container">
+    <h2 class="reviews-main-text">Reviews</h2>
+    <div class="reviews-div">
+        <ul class="reviews-ul">
+            <li class="reviews-li">
+                <div class="reviews-box">
+                    <img srcset="/111_html-css_anakovalchuk/assets/reviews-ellipse-2-BO7ofa4o.png 1x, /111_html-css_anakovalchuk/assets/reviews-ellipse-2@2x-Dru4cGuV.png 2x"
+                        src="/111_html-css_anakovalchuk/assets/reviews-ellipse-2-BO7ofa4o.png" 
+                        alt="John Wax" 
+                        width="56" 
+                        height="56"
+                        class="reviews-img"/>
+                    <h2 class="reviews-li-name">John Wax</h2>
+                    <p class="reviews-about">Buying a watch from was the best choice for me. The design is perfectly
+                        combined with high quality materials. The strap
+                        fits nicely on the hand, and the mechanism works flawlessly.</p>
+                </div>
+            </li>
+            <li class="reviews-li hidden">
+                <div class="reviews-box">
+                    <img srcset="/111_html-css_anakovalchuk/assets/reviews-ellipse-1-DC0Z6dvP.png 1x, /111_html-css_anakovalchuk/assets/reviews-ellipse-1@2x-CSzU9fyD.png 2x"
+                        src="/111_html-css_anakovalchuk/assets/reviews-ellipse-1-DC0Z6dvP.png" 
+                        alt="Victoria Romashenko" 
+                        width="56" 
+                        height="56"
+                        class="reviews-img"/>
+                    <h2 class="reviews-li-name">Victoria Romashenko</h2>
+                    <p class="reviews-about">Can't take my eyes off my watch from. Every time I put it on, it is admired
+                        by those around me. The build quality and
+                        attention to detail make it a real gem among my accessories.</p>
+                </div>
+            </li>
+            <li class="reviews-li hid-two">
+                <div class="reviews-box">
+                    <img srcset="/111_html-css_anakovalchuk/assets/reviews-ellipse-3-Dsbz5mBA.png 1x, /111_html-css_anakovalchuk/assets/reviews-ellipse-3@2x-Cph-i7uu.png 2x"
+                        src="/111_html-css_anakovalchuk/assets/reviews-ellipse-3-Dsbz5mBA.png" 
+                        alt="Anastasia Trachuk" 
+                        width="56" 
+                        height="56"
+                        class="reviews-img"/>
+                    <h2 class="reviews-li-name">Anastasia Trachuk</h2>
+                    <p class="reviews-about">My watch from is a real masterpiece. Every detail impresses with the high
+                        quality of execution. Special features like
+                        [specify features] make it an indispensable companion in my daily life.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+</section>
+      <section class="contact-us" id="contact-us">
+    <div class="container container-cu">
+        <h2 class="header-cu">Contact Us</h2>
+        <div class="div-cu">
+            <div class="form-div">
+                <p class="text-cu">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+                <form class="form-cu">
+                    <label class="label-cu">
+                        <input required name="user-name" type="text" class="input-cu" placeholder="Name" pattern="[a-zA-Z]+">
+                    </label>
+                    <label class="label-cu">
+                        <input required name="user-email" type="email" class="input-cu" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                    </label>
+                    <label class="label-cu">
+                        <input required name="user-phone" type="tel" class="input-cu" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$">
+                    </label>
+                    <div class="comment-container">
+                        <label class="label-form" for="textarea">
+                        </label>
+                       <textarea name="comment" id="textarea" class="textarea-cu" placeholder="Comment"></textarea>
+                </div>
+                    <button class="button-cu" type="submit">Send
+                    </button>
+
+                </form>
+            </div>
+            
+            <picture>
+                <source 
+                media="(min-width: 1280px)" srcset="/111_html-css_anakovalchuk/assets/contact-us-desk-BdizDdu_.png 1x, /111_html-css_anakovalchuk/assets/contact-us-desk@2x-CJ50OFPx.png 2x"
+                width="530"
+                height="556"/>
+    
+                <source 
+                media="(min-width: 768px)" 
+                srcset="/111_html-css_anakovalchuk/assets/contact-us-tab-BSbvxARq.png 1x, /111_html-css_anakovalchuk/assets/contact-us-tab@2x-upn3SIgN.png 2x"
+                width="704"
+                height="556"/>
+    
+                <source 
+                media="(max-width: 767px)"     
+                srcset="/111_html-css_anakovalchuk/assets/contact-us-mob-TFadVWhn.png 1x, /111_html-css_anakovalchuk/assets/contact-us-mob@2x-CS3y1mlm.png 2x"
+                width="335"
+                height="512"/>
+    
+                <img 
+                class="image-cu"
+                src="/111_html-css_anakovalchuk/assets/contact-us-desk-BdizDdu_.png"
+                width="530"
+                height="556"
+                alt="watch"/>
+            </picture>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-up">
+      <div class="footer-logo-box">
+        <a href="/index.html" class="footer-logo">watchcharm</a>
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="footer-soc-link"
+              target="_blank"
+            >
+              <svg width="20" height="20" class="footer-soc-svg">
+                <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="footer-soc-link"
+              target="_blank"
+            >
+              <svg width="20" height="20" class="footer-soc-svg">
+                <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="footer-soc-link"
+              target="_blank"
+            >
+              <svg width="20" height="20" class="footer-soc-svg">
+                <use href="/111_html-css_anakovalchuk/assets/icons-BfQyOYbQ.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <address class="footer-tel-box">
+        <a href="tel:+380684439426" class="footer-tel-link"
+          >+380 (68) 443-94-26</a
+        >
+      </address>
+      <div class="footer-slogan-box">
+        <p class="footer-slogan">
+          Have the time of your life with our watches: where high-class
+          craftsmanship meets impeccable design
+        </p>
+      </div>
+    </div>
+    <div class="footer-mid">
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="/index.html" class="footer-nav-link">Home</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#about-us" class="footer-nav-link">About Us</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#catalog" class="footer-nav-link">Catalog</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#sale" class="footer-nav-link">Sale</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#reviews" class="footer-nav-link">Reviews</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#contact-us" class="footer-nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="footer-adr">
+        <a
+          href="https://maps.app.goo.gl/ej2nvMhu2dauqBoQ8"
+          class="footer-adr-text"
+          target="_blank"
+        >
+          1678 S. Pioneer Road Salt Lake City UT 84104
+        </a>
+      </address>
+    </div>
+    <div class="footer-low">
+      <div class="footer-copyr-box">
+        <p class="footer-copyright">
+          ©2023 The Watch Spot. All rights reserved.
+        </p>
+      </div>
+      <div class="footer-service-box">
+        <a href="#" class="footer-service">Terms of Service</a>
+        <a href="#" class="footer-service">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
